@@ -1,0 +1,19 @@
+.auth__heading {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.208;
+    font-weight: 900;
+    font-family: "Inter";
+  }
+  
+  @media screen and (max-width: 675px) {
+    .auth__heading {
+      font-size: 20px;
+      line-height: 1.222;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }

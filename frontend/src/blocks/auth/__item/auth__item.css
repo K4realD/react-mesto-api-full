@@ -1,0 +1,15 @@
+.auth__item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 13px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.214;
+  font-family: "Inter";
+  border: none;
+  border-bottom: 1px white solid;
+  color: white;
+  background-color: black;
+  outline: none;
+}

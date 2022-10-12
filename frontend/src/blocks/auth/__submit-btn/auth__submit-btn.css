@@ -1,0 +1,33 @@
+.auth__submit-btn {
+  align-self: center;
+  width: 358px;
+  margin: 0;
+  padding: 0;
+  margin-top: 186px;
+  margin-bottom: 15px;
+  padding-top: 14px;
+  padding-bottom: 18px;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  line-height: 1.222;
+  font-family: "Inter";
+  transition: 0.5s ease-in-out;
+}
+
+.auth__submit-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 675px) {
+  .auth__submit-btn {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.214;
+    margin-top: 143px;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+}
