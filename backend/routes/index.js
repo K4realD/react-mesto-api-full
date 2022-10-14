@@ -7,6 +7,11 @@ const NotFoundError = require('../errors/NotFoundError');
 const { authValidator, registretionValidator } = require('../middlewares/validation');
 const { createUser, login, signout } = require('../controllers/users');
 
+router.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 router.post('/signin', authValidator, login);
 router.post('/signup', registretionValidator, createUser);
 router.get('/signout', signout);

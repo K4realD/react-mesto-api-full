@@ -1,9 +1,11 @@
 import Api from'./Api.js'
 
+const BASE_URL = 'https://backendk4d.nomoredomains.icu'
+
 const api = new Api({
-  url: 'https://mesto.nomoreparties.co/v1/cohort-41',
+  url: BASE_URL,
   headers: {
-    authorization: `f3195114-15f7-499c-9881-ff5b27b99807`,
+    "Accept": "application/json",
     'Content-Type': 'application/json'
   }
 })
@@ -16,10 +18,6 @@ const validationSelectors = {
   errorClass: "form__item-error_active",
   fieldsetSelector: ".form__container",
 };
-
-const BASE_URL = 'https://auth.nomoreparties.co'
-
-
 
 export {
   validationSelectors,

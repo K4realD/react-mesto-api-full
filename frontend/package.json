@@ -1,6 +1,5 @@
 {
   "name": "newdir",
-  "homepage": "https://k4reald.github.io/react-mesto-auth/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
